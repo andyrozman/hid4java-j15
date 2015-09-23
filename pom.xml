@@ -9,9 +9,10 @@
     <version>0.3.1</version>
 
     <name>hid4java-j15</name>
-    <description>A cross-platform Java Native Access (JNA) wrapper for the signal11/hidapi library</description>
+    <description>A cross-platform Java Native Access (JNA) wrapper for the signal11/hidapi library (Java 1.5)
+    </description>
 
-    <url>http://github.com/gary-rowe/hid4java</url>
+    <url>https://github.com/andyrozman/hid4java-j15</url>
     <inceptionYear>2014</inceptionYear>
 
     <organization>
@@ -39,6 +40,7 @@
         </license>
     </licenses>
 
+    <!--
     <issueManagement>
         <system>GitHub</system>
         <url>https://github.com/gary-rowe/hid4java/issues</url>
@@ -57,11 +59,12 @@
         </repository>
         <downloadUrl>https://oss.sonatype.org/content/groups/public/org/hid4java</downloadUrl>
     </distributionManagement>
+    -->
 
     <scm>
-        <connection>scm:git:git@github.com:gary-rowe/hid4java.git</connection>
-        <developerConnection>scm:git:git@github.com:gary-rowe/hid4java.git</developerConnection>
-        <url>git@github.com:gary-rowe/hid4java.git</url>
+        <connection>scm:git:git@github.com:andyrozman/hid4java-j15.git</connection>
+        <developerConnection>scm:git:git@github.com:andyrozman/hid4java-j15.git</developerConnection>
+        <url>git@github.com:andyrozman/hid4java-j15.git</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -155,12 +158,13 @@
     </build>
 
     <dependencies>
-        <!-- Java Native Access (JNA) -->
+        <!-- Java Native Access (JNA) [Java 1.5 Port] -->
         <dependency>
             <groupId>net.java.dev.jna</groupId>
             <artifactId>jna-j15</artifactId>
             <version>4.1.0</version>
         </dependency>
+
     </dependencies>
 
 </project>
